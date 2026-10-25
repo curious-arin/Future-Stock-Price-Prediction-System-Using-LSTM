@@ -6,7 +6,7 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 
 *The goal is to explore how deep learning can learn time related patterns in historical stock prices and produce data-driven price estimates.*
 
----
+-----
 
 ## 💡 Problem Statement & Business Impact
 
@@ -16,14 +16,14 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 - **Goal:** Build an LSTM-based regression model that predicts Tesla's next closing price using a sequence of the previous 60 observations and the selected OHLC [Open, High, Low, and Close] features.
 - **Potential value:** Helps understand stock price trends, predict possible price changes, and make smarter stock market decisions using historical data.
 
----
+-----
 
 ## 📊 Data Source
 
 - **Dataset:** Historical Tesla (TSLA) stock data retrieved from [Yahoo Finance](https://finance.yahoo.com/) using the `yfinance` Python library.
 - The notebook requests approximately 10 years of historical data and uses the available market fields, including Open, High, Low, Close, and Volume.
 
----
+-----
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +34,7 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 - Scikit-learn 
 - Google Colab / VS Code
 
----
+-----
 
 ## 📂 Project Structure
 
@@ -51,6 +51,8 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 └── requirements.txt
 ```
 
+-----
+
 ## 🔄 Project Workflow
 
 1. **Data Retrieval:** Download historical TSLA prices from Yahoo Finance using `yfinance`.
@@ -64,6 +66,27 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 9. **Model Training:** Train with Adam, Mean Squared Error (MSE) loss, and weight decay; monitor training and validation loss.
 10. **Model Evaluation:** Evaluate test loss and calculate MAE, RMSE, and R² after converting predictions back to the original price scale.
 11. **Model Saving & Prediction Check:** Save the model weights and scaler, reload the model, and compare a sample prediction with its actual value.
+
+-----
+
+## 📈 Data Visualization
+
+### 1. Stock Price Overview
+<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/1.stock_price_overview.png" width="100%">
+
+### 2. Closing Price & Moving Average
+<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/2.close_price_and_moving_average.png" width="100%">
+
+### 3. Tesla Daily Return Distribution
+<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/3.tesla_daily_return_distribution.png" width="100%">
+
+### 4. Training vs Validation Loss
+<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/4.training_vs_validation_loss.png" width="100%">
+
+### 5. Predicted vs Actual Stock Price
+<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/5.actual_va_predicted_stock_prices.png" width="100%">
+
+-----
 
 ## 🧠 Model Architecture
 
@@ -85,6 +108,8 @@ The notebook defines an LSTM regression model with:
 - **Batch Size:** Set in the notebook's `batch_size` variable
 - **Device:** CPU [because data was not enough, but added a configuration to switch to GPU as a lot of data becomes available]
 
+-----
+
 ## 📊 Model Performance
 
 | **Metric** | **Score** |
@@ -93,6 +118,8 @@ The notebook defines an LSTM regression model with:
 | Root Mean Squared Error (RMSE) | **25.1258** |
 | R² Score | **74.31%** |
 | Test Loss (scaled MSE) | **0.0040** |
+
+-----
 
 ## 🔮 Future Improvements
 - Try different LSTM models and settings to improve prediction score.
