@@ -72,19 +72,19 @@ This project focuses on predicting Tesla (TSLA) closing stock prices using histo
 ## 📈 Data Visualization
 
 ### 1. Stock Price Overview
-<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/1.stock_price_overview.png" width="100%">
+<img src="https://github.com/curious-arin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/1.stock_price_overview.png" width="100%">
 
 ### 2. Closing Price & Moving Average
-<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/2.close_price_and_moving_average.png" width="100%">
+<img src="https://github.com/curious-arin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/2.close_price_and_moving_average.png" width="100%">
 
 ### 3. Tesla Daily Return Distribution
-<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/3.tesla_daily_return_distribution.png" width="100%">
+<img src="https://github.com/curious-arin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/3.tesla_daily_return_distribution.png" width="100%">
 
 ### 4. Training vs Validation Loss
-<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/4.training_vs_validation_loss.png" width="100%">
+<img src="https://github.com/curious-arin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/4.training_vs_validation_loss.png" width="100%">
 
 ### 5. Predicted vs Actual Stock Price
-<img src="https://github.com/neuralarin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/5.actual_va_predicted_stock_prices.png" width="100%">
+<img src="https://github.com/curious-arin/Future-Stock-Price-Prediction-System-Using-LSTM/blob/main/images/5.actual_va_predicted_stock_prices.png" width="100%">
 
 -----
 
